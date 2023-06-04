@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeliExpress</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--HEADER-->
+
+    <header class="header">
+      <img class="bg" src="images/bg.png" alt="" />
+      <div class="menu container">
+        <a href="#" class="logo">DeliExpress</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="images/menu.png" class="menu-icono" alt="" />
+        </label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="calculadora.html">calculadora</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <ul>
+            <li class="submenu">
+              <img src="images/car.svg" id="img-carrito" alt="carrito" />
+              <div id="carrito">
+                <table id="lista-carrito">
+                  <thead>
+                    <tr>
+                      <th>Imagen</th>
+                      <th>Nombre</th>
+                      <th>Precio</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                </table>
+                <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-content container">
+        <div class="header-text">
+          <h1><span>Bienvenido</span> Disfruta Nuestra Deliciosa Comida</h1>
+          <p>
+            En Deliexpress podras encontrar tus desayunos y almuerzos favoritos
+            , adicionalmente antes de comprar podras realizar el calculo de
+            almuerzo para no tener dificultades a la hora de realizar tu pago y
+            poder cumplir todos tus antojos sin problemas , nuestra misión es
+            hacerte feliz , Disfruta !!
+          </p>
+        </div>
+        <div class="header-img">
+          <img src="images/pl-1.png" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <!--SECTION 1-->
+
+    <section class="breakfast container">
+      <h2>Horario De Atención</h2>
+      <p>Horario 7am - 10pm</p>
+
+      <div class="breakfast-content">
+        <div class="breakfast-1">
+          <img src="images/b1.png" alt="" />
+          <h3>Clasica</h3>
+        </div>
+
+        <div class="breakfast-1">
+          <img src="images/b2.png" alt="" />
+          <h3>Waffles</h3>
+        </div>
+
+        <div class="breakfast-1">
+          <img src="images/b3.png" alt="" />
+          <h3>Sanduche</h3>
+        </div>
+
+        <div class="breakfast-1">
+          <img src="images/b4.png" alt="" />
+          <h3>Fitness</h3>
+        </div>
+      </div>
+    </section>
+
+    <!--SECTION 2-->
+
+    <section class="info">
+      <img class="bg-2" src="images/bg-2.png" alt="" />
+      <div class="info-content container">
+        <div class="info-img">
+          <img src="images/breakfast.png" alt="" />
+        </div>
+
+        <div class="info-txt">
+          <h2>Productos De La Mejor Calidad</h2>
+          <p>
+            Nuestros productos son elaborados por madres cabezas de familia que
+            hacen tu comida como la comida de mamá , ademas apoyamos a nuestros
+            campesinos , de tal manera que todos nuestros productos son frescos
+            y deliciosos para cumplir con todos los estandares de calidad !!
+          </p>
+          
+        </div>
+      </div>
+    </section>
+
+    <main class="products container">
+      <h2>Productos</h2>
+
+      <div class="box-container" id="lista-1">
+        <div class="box">
+          <img src="images/pla1.png" alt="" />
+          <div class="product-txt">
+            <h3>Desayuno 1</h3>
+            <p>Calidad Premium</p>
+            <p class="precio">$250</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="1"
+              >Agregar Al Carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pla2.png" alt="" />
+          <div class="product-txt">
+            <h3>Desayuno 2</h3>
+            <p>Calidad Premium</p>
+            <p class="precio">$120</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="2"
+              >Agregar Al Carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pla3.png" alt="" />
+          <div class="product-txt">
+            <h3>Desayuno 3</h3>
+            <p>Calidad Premium</p>
+            <p class="precio">$80</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="3"
+              >Agregar Al Carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pla4.png" alt="" />
+          <div class="product-txt">
+            <h3>Desayuno 4</h3>
+            <p>Calidad Premium</p>
+            <p class="precio">$59</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="4"
+              >Agregar Al Carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pla1.png" alt="" />
+          <div class="product-txt">
+            <h3>Almuerzo 1</h3>
+            <p>Calidad Premium</p>
+            <p class="precio">$200</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="5"
+              >Agregar Al Carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pla2.png" alt="" />
+          <div class="product-txt">
+            <h3>Almuerzo 2</h3>
+            <p>Calidad Premium</p>
+            <p class="precio">$150</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="6"
+              >Agregar Al Carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pla3.png" alt="" />
+          <div class="product-txt">
+            <h3>Almuerzo 3</h3>
+            <p>Calidad Premium</p>
+            <p class="precio">$184</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="7"
+              >Agregar Al Carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pla4.png" alt="" />
+          <div class="product-txt">
+            <h3>Almuerzo 4</h3>
+            <p>Calidad Premium</p>
+            <p class="precio">$225</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="8"
+              >Agregar Al Carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pla1.png" alt="" />
+          <div class="product-txt">
+            <h3>Tarde 1</h3>
+            <p>Calidad Premium</p>
+            <p class="precio">$35</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="9"
+              >Agregar Al Carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pla2.png" alt="" />
+          <div class="product-txt">
+            <h3>tarde 2 </h3>
+            <p>Calidad Premium</p>
+            <p class="precio">$20</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="10"
+              >Agregar Al Carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pla3.png" alt="" />
+          <div class="product-txt">
+            <h3>Tarde 3</h3>
+            <p>Calidad Premium</p>
+            <p class="precio">$65</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="11"
+              >Agregar Al Carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pla4.png" alt="" />
+          <div class="product-txt">
+            <h3>Tarde 4</h3>
+            <p>Calidad Premium</p>
+            <p class="precio">$85</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="12"
+              >Agregar Al Carrito</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="btn-2" id="load-more">Cargar Más</div>
+    </main>
+
+    <!--SECTION 3-->
+
+    <section class="app container">
+      <div class="app-txt">
+        <h2>Descarga Nuestra App Descubre Nuestros Productos y Descuentos</h2>
+
+        <p>
+          Descarga Nuestra App Movil y pide tu comida favorita de nuestro restaurante de manera agil y segura 
+          No Olvides Por Cada Compra Que Hagas Ayudas A Una Madre Cabeza De Familia y A Un Campesino.
+        </p>
+
+        <div class="descarga">
+          <a href="https://www.apple.com/co/app-store/" ><img src="images/store1.png" alt=""  /></a>
+              <a href="https://play.google.com/store/apps?hl=es_CO&gl=US" ><img src="images/store2.png" alt=""  /></a>
+        </div>
+      </div>
+
+      <div class="app-img">
+        <img src="images/app.png" alt="" />
+      </div>
+    </section>
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+      <div class="footer">
+        <div class="footer-content container">
+          <div class="link">
+            <h3>Ubicación</h3>
+            <ul>
+              <li><a href="#">Medellín</a></li>
+              <li><a href="#">Ciudad De Mexico</a></li>
+              <li><a href="#">New York</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="link">
+            <h3>Contactenos</h3>
+            <ul>
+              <li><a href="https://wa.me/qr/CYI3SE7AZBVPC1 ">+57 300 903 79 05</a></li>
+              <li><a href="#">Deliexpress@gmail.com</a></li>              
+            </ul>
+          </div>
+
+          <div class="link">
+            <h3>Hecho Por</h3>
+            <ul>
+              <li><a href="https://www.instagram.com/cnc3ptdev/">Andres Higuita</a></li>
+              <li><a href="#">Lorem</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="link">
+            <h3>Descarga Nuestra App</h3>
+            <div class="descarga">
+              <a href="https://www.apple.com/co/app-store/" ><img src="images/store1.png" alt=""  /></a>
+              <a href="https://play.google.com/store/apps?hl=es_CO&gl=US" ><img src="images/store2.png" alt=""  /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
